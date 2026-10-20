@@ -1,0 +1,74 @@
+# ==========================================
+# Python & Environment Virtualization
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (Standard venv & uv default)
+.venv/
+venv/
+ENV/
+env/
+
+# Python version files (if you manage them per-project)
+.python-version
+
+# ==========================================
+# Build & Distribution System
+# ==========================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Testing & Code Quality
+# ==========================================
+.htmlcov/
+.tox/
+.nosenv/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.profile
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytest_cache/
+.ruff_cache/
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.venv
+# Do NOT ignore your template files
+!.env.example
+!.env.template
+
+# ==========================================
+# IDEs & System Files (Optional but Recommended)
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
